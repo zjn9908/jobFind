@@ -1,0 +1,687 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Keller - 工作板HTML模板</title>
+    <meta name="robots" content="noindex, follow"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+
+
+    <!-- CSS
+	============================================ -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://cdn.bootstrapmb.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/flaticon.css">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+
+            <!-- Header Logo Start -->
+            <div class="col">
+                <div class="header-logo">
+                    <a href="index.html"><img src="assets/images/logo/logo-light.png" alt="Site Logo"></a>
+                </div>
+            </div><!-- Header Logo End -->
+
+            <!-- Offcanvas Toggle Start -->
+            <div class="col-auto d-lg-none d-flex align-items-center">
+                <button class="offcanvas-toggle">
+                    <span></span>
+                </button>
+            </div>
+            <!-- Offcanvas Toggle End -->
+
+            <!-- Header Links Start -->
+            <div class="header-links col-auto order-lg-3">
+                <a href="#" data-toggle="modal" data-target="#loginSignupModal" data-target-sub="#login">登录</a>
+                <span>或</span>
+                <a href="#" data-toggle="modal" data-target="#loginSignupModal" data-target-sub="#signup">注册</a>
+            </div><!-- Header Links End -->
+
+            <!-- Header Menu Start -->
+            <nav id="main-menu" class="main-menu col-lg-auto order-lg-2">
+                <ul>
+                    <li class="has-children"><a href="index.html">主页</a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">主页1</a></li>
+                            <li><a href="index-2.html">主页2</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children"><a href="job-list.html">职位</a>
+                        <ul class="sub-menu">
+                            <li><a href="job-list.html">职位清单</a></li>
+                            <li><a href="job-single.html">单个职位</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="company-list.html">企业</a>
+                        <ul class="sub-menu">
+                            <li><a href="company-list.html">企业清单</a></li>
+                            <li><a href="company-single.html">单个企业</a></li>
+                            <li><a href="create-job.html">创建岗位</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">相关页面</a>
+                        <ul class="sub-menu">
+                            <li><a href="about-us.html">关于我们</a></li>
+                            <li><a href="faq.html">常见问题</a></li>
+                            <li><a href="pricing.html">价格</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">博客</a>
+                        <ul class="sub-menu">
+                            <li><a href="blog.html">博客</a></li>
+                            <li><a href="blog-right-sidebar.html">博客右侧栏</a></li>
+                            <li><a href="blog-single.html">单个博客</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </nav>
+            <!-- Header Menu End -->
+
+        </div>
+
+    </div>
+</header>
+
+
+<!--Offcanvas Section Start-->
+<div id="offcanvas" class="offcanvas-section">
+    <button class="offcanvas-close" data-target="#offcanvas">&times;</button>
+    <div class="offcanvas-wrap">
+        <div class="inner">
+
+            <!-- Offcanvas user Start -->
+            <div class="offcanvas-user">
+                <a href="#" data-toggle="modal" data-target="#loginSignupModal" data-target-sub="#login">登录</a>
+                <span>or</span>
+                <a href="#" data-toggle="modal" data-target="#loginSignupModal" data-target-sub="#signup">注册</a>
+            </div>
+            <!-- Offcanvas user End -->
+
+            <!-- Offcanvas Menu Start -->
+            <div class="offcanvas-menu">
+                <nav>
+                    <ul>
+                        <li class="has-children"><a href="index.html">主页</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">主页1</a></li>
+                                <li><a href="index-2.html">主页2</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children"><a href="job-list.html">职位</a>
+                            <ul class="sub-menu">
+                                <li><a href="job-list.html">职位清单</a></li>
+                                <li><a href="job-single.html">单个职位</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="company-list.html">企业</a>
+                            <ul class="sub-menu">
+                                <li><a href="company-list.html">企业清单</a></li>
+                                <li><a href="company-single.html">单个企业</a></li>
+                                <li><a href="create-job.html">创建岗位</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">相关页面</a>
+                            <ul class="sub-menu">
+                                <li><a href="about-us.html">关于我们</a></li>
+                                <li><a href="faq.html">常见问题</a></li>
+                                <li><a href="pricing.html">价格</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">博客</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">博客</a></li>
+                                <li><a href="blog-right-sidebar.html">博客右侧栏</a></li>
+                                <li><a href="blog-single.html">单个博客</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">联系我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Offcanvas Menu End -->
+
+        </div>
+    </div>
+</div>
+<!--Offcanvas Section End-->
+<!--OffCanvas Overlay-->
+<div class="offcanvas-overlay"></div>
+
+
+<div class="loginSignupModal modal fade" id="loginSignupModal" tabindex="-1" role="dialog"
+     aria-labelledby="loginSignupModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <ul class="loginSignupNav nav">
+                    <li><a class="nav-link active" data-toggle="tab" href="#login">登录</a></li>
+                    <li><a class="nav-link" data-toggle="tab" href="#signup">注册</a></li>
+                </ul>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="login">
+                        <form>
+                            <div class="row mb-n3">
+                                <div class="col-12 mb-3"><input type="email" placeholder="邮箱"></div>
+                                <div class="col-12 mb-3"><input type="password" placeholder="密码"></div>
+                                <div class="col-12 mb-3">
+                                    <div class="row justify-content-between mb-n2">
+                                        <div class="col-auto mb-2">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" name="remember-me" id="remember-me"
+                                                       value="checkedValue" class="custom-control-input">
+                                                <label class="custom-control-label" for="remember-me">记住密码</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto mb-2"><a href="#">忘记密码？</a></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3"><input class="btn btn-primary w-100" type="submit" value="登录">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col text-center">
+                                    <p class="text-muted">或用以下方式登录</p>
+                                    <div class="login-reg-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="signup">
+                        <form>
+                            <div class="row mb-n3">
+                                <div class="col-12 mb-3"><input type="text" placeholder="输入用户名"></div>
+                                <div class="col-12 mb-3"><input type="email" placeholder="输入邮箱地址"></div>
+                                <div class="col-12 mb-3"><input type="password" placeholder="输入密码"></div>
+                                <div class="col-12 mb-3"><input class="btn btn-primary w-100" type="submit" value="注册">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col text-center">
+                                    <p class="text-muted">或用以下方式注册</p>
+                                    <div class="login-reg-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page Heading Section Start -->
+<div class="page-heading-section section bg-parallax" data-bg-image="assets/images/bg/bg-1.jpg" data-overlay="50">
+    <div class="container">
+        <div class="page-heading-content text-center">
+            <h3 class="title">博客</h3>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">主页</a></li>
+                <li class="breadcrumb-item active">博客</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!-- Page Heading Section End -->
+
+<!-- Blog Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <div class="row mb-n5">
+
+            <div class="col-lg-8 col-12 mb-5 pr-lg-5">
+
+                <!-- Blog Wrapper Start -->
+                <div class="blog-wrap row">
+
+                    <!-- Blog Single Start -->
+                    <div class="col-12">
+                        <div class="blog blog-single">
+                            <div class="media">
+                                <img src="assets/images/blog/single-1.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h6 class="title">标题The Top 5 Job Interview Questions For IT Professional</h6>
+                                <ul class="meta">
+                                    <li>日期Posted on 25 Jan, 2019</li>
+                                    <li><a href="#">评论数3 Comments</a></li>
+                                </ul>
+                                <div class="desc">
+                                    <p>内容Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim corporis
+                                        totam. Deserunt, aperiam. Neque quibusdam nihil sunt, soluta unde inventore odit
+                                        ea consequatur voluptatem doloribus assumenda, nisi expedita ipsam eaque harum.
+                                        Quam, ipsa? Nihil, harum, veniam dignissimos laudantium nobis libero a nostrum
+                                        quis voluptatum beatae pariatur hic cum odio natus, tenetur officia similique
+                                        incidunt!</p>
+                                    <p>内容Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio totam ab
+                                        reiciendis distinctio dicta deserunt? Culpa ex quam eligendi sapiente quo
+                                        laboriosam velit pariatur obcaecati omnis soluta necessitatibus, fugiat
+                                        minima?</p>
+                                    <blockquote class="blockquote">
+                                        <p class="mb-0">摘抄内容Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quas aspernatur nemo pariatur eius corrupti cupiditate rem molestias
+                                            voluptatem explicabo eum.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">摘抄的题目Source
+                                            Title</cite></footer>
+                                    </blockquote>
+                                    <p>内容Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium facilis
+                                        molestiae qui quod rerum numquam, neque inventore non eius reiciendis,
+                                        necessitatibus exercitationem, maxime natus dignissimos saepe veritatis id
+                                        recusandae distinctio doloremque aliquam provident similique consequatur. A
+                                        cupiditate tempore repellat sint.</p>
+                                    <p>内容Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore sint
+                                        quaerat dolore, ipsa voluptates illo ullam sed numquam! Pariatur excepturi
+                                        reiciendis sequi dolorum placeat quaerat at, nostrum iusto soluta corrupti.</p>
+                                    <p>内容Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, omnis
+                                        aliquam! Porro minima quasi repudiandae ad officia expedita quae? Aspernatur
+                                        ipsam provident ullam architecto natus, accusantium asperiores earum totam
+                                        quaerat odit eligendi? Sunt dolore saepe minima reiciendis nesciunt odio tempora
+                                        repudiandae non veritatis esse officia maxime, voluptatum reprehenderit? Sint
+                                        sapiente omnis dolore error ipsa quibusdam obcaecati nisi accusamus dolorum
+                                        reiciendis a quos, maiores dignissimos nostrum aspernatur, pariatur quia amet.
+                                        Praesentium nobis ullam quae accusantium recusandae.</p>
+                                </div>
+                                <div class="foot row justify-content-between align-items-start mb-n2">
+                                    <div class="blog-tags col-auto mb-2">
+                                        <ul>
+                                            <li><strong>标签：</strong></li>
+                                            <li><a href="#">建议</a></li>
+                                            <li><a href="#">岗位</a></li>
+                                            <li><a href="#">问题</a></li>
+                                            <li><a href="#">采访</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog-share col-auto mb-2">
+                                        <ul>
+                                            <li><strong>分享到：:</strong></li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Single End -->
+
+                    <!-- Blog Navigation Start -->
+                    <div class="col-12">
+                        <ul class="blog-navigation row mx-0">
+                            <li class="col-sm-6 col-12"><a href="#" class="prev-blog">上一篇的题目7 Careers To Consider If You
+                                Love Traveling</a></li>
+                            <li class="col-sm-6 col-12 mt-3 mt-sm-0"><a href="#" class="next-blog">下一篇的题目When the
+                                Perfect Candidate Turns Out To Be an Imperfect Fit</a></li>
+                        </ul>
+                    </div>
+                    <!-- Blog Navigation End -->
+
+                    <!-- Blog Comments Start -->
+                    <div class="col-12">
+                        <div class="blog-comments">
+                            <h6 class="mb-4">3个评论</h6>
+                            <ul class="comment-list">
+                                <li>
+                                    <div class="comment">
+                                        <div class="image"><img src="assets/images/authors/author-2.jpg" alt=""></div>
+                                        <div class="content">
+                                            <div class="head">
+                                                <h6 class="name">用户名1Harold McCoy</h6>
+                                                <span class="date">25 Jan, 2019</span>
+                                            </div>
+                                            <p>评论内容1Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                Repudiandae quibusdam deserunt, quaerat mollitia corrupti pariatur?</p>
+                                            <a href="#" class="reply"><i class="fa fa-reply"></i> 回复</a>
+                                        </div>
+                                    </div>
+                                    <ul class="child-comment">
+                                        <li>
+                                            <div class="comment">
+                                                <div class="image"><img src="assets/images/authors/author-3.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <div class="head">
+                                                        <h6 class="name">用户名2Ronald Wright</h6>
+                                                        <span class="date">25 Jan, 2019</span>
+                                                    </div>
+                                                    <p>评论内容2Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                        Repudiandae quibusdam deserunt, quaerat mollitia corrupti
+                                                        pariatur?</p>
+                                                    <a href="#" class="reply"><i class="fa fa-reply"></i> 回复</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="comment">
+                                        <div class="image"><img src="assets/images/authors/author-1.jpg" alt=""></div>
+                                        <div class="content">
+                                            <div class="head">
+                                                <h6 class="name">用户名3Sharon Harper</h6>
+                                                <span class="date">25 Jan, 2019</span>
+                                            </div>
+                                            <p>评论内容3Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                Repudiandae quibusdam deserunt, quaerat mollitia corrupti pariatur?</p>
+                                            <a href="#" class="reply"><i class="fa fa-reply"></i> 回复</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Blog Comments End -->
+
+                    <!-- Blog Comments Form Start -->
+                    <div class="col-12">
+                        <div class="comment-form">
+                            <h6 class="mb-4">留下你的评论</h6>
+                            <form action="#">
+                                <div class="row mb-n3">
+                                    <div class="col-md-6 col-12 mb-3"><input type="text" placeholder="你的名字"></div>
+                                    <div class="col-md-6 col-12 mb-3"><input type="email" placeholder="你的邮箱"></div>
+                                    <div class="col-12 mb-3"><textarea rows="4" placeholder="说点什么…"></textarea></div>
+                                    <div class="col-12 mb-3"><input type="submit" class="btn btn-primary" value="提交">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Blog Comments Form End -->
+
+                </div>
+                <!-- Blog Wrapper End -->
+
+            </div>
+
+            <!-- Blog Sidebar Wrap Start -->
+            <div class="col-lg-4 col-12 mb-5">
+                <div class="sidebar-wrap">
+                    <!-- Sidebar (Search) Start -->
+                    <div class="sidebar-widget">
+                        <div class="inner">
+                            <h6 class="title">搜索关键词</h6>
+                            <form action="#">
+                                <input type="text" placeholder="搜索">
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Sidebar (Search) End -->
+
+                    <!-- Sidebar (Recent Posts) Start -->
+                    <div class="sidebar-widget">
+                        <div class="inner">
+                            <h6 class="title">近期投稿</h6>
+                            <ul class="sidebar-post">
+                                <li>
+                                    <a href="blog-single.html" class="image"><img src="assets/images/blog/sidebar-1.jpg"
+                                                                                  alt=""></a>
+                                    <a href="blog-single.html" class="title">标题1 The Top 5 Job Interview Questions For
+                                        IT Professional</a>
+                                </li>
+                                <li>
+                                    <a href="blog-single.html" class="image"><img src="assets/images/blog/sidebar-2.jpg"
+                                                                                  alt=""></a>
+                                    <a href="blog-single.html" class="title">标题2 7 Careers To Consider If You Love
+                                        Traveling</a>
+                                </li>
+                                <li>
+                                    <a href="blog-single.html" class="image"><img src="assets/images/blog/sidebar-3.jpg"
+                                                                                  alt=""></a>
+                                    <a href="blog-single.html" class="title">标题3 When the Perfect Candidate Turns Out To
+                                        Be an Imperfect Fit</a>
+                                </li>
+                                <li>
+                                    <a href="blog-single.html" class="image"><img src="assets/images/blog/sidebar-4.jpg"
+                                                                                  alt=""></a>
+                                    <a href="blog-single.html" class="title">标题4 5 ways to keep calm and carry on during
+                                        your job search</a>
+                                </li>
+                                <li>
+                                    <a href="blog-single.html" class="image"><img src="assets/images/blog/sidebar-5.jpg"
+                                                                                  alt=""></a>
+                                    <a href="blog-single.html" class="title">标题5 Should I reapply for a job vacancy that
+                                        was reposted?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Sidebar (Recent Posts) End -->
+
+                    <!-- Sidebar (Recent Comments) Start -->
+                    <div class="sidebar-widget">
+                        <div class="inner">
+                            <h6 class="title">近期评论</h6>
+                            <ul class="sidebar-list sidebar-list-comment">
+                                <li>Theresa Tran 评论 <a href="blog-single.html">The Top 5 Job Interview Questions For IT
+                                    Professional</a>
+                                </li>
+                                <li>admin 评论 <a href="blog-single.html">7 Careers To Consider If You Love Traveling</a>
+                                </li>
+                                <li>Jessica Brewer 评论 <a href="blog-single.html">When the Perfect Candidate Turns Out To
+                                    Be an Imperfect Fit</a>
+                                </li>
+                                <li>Sharon Hall 评论 <a href="blog-single.html">5 ways to keep calm and carry on during
+                                    your job search</a>
+                                </li>
+                                <li>admin 评论 <a href="blog-single.html">Should I reapply for a job vacancy that was
+                                    reposted?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Sidebar (Recent Comments) End -->
+
+                    <!-- Sidebar (Category) Start -->
+                    <div class="sidebar-widget">
+                        <div class="inner">
+                            <h6 class="title">类别</h6>
+                            <ul class="sidebar-list">
+                                <li><a href="#">商务</a>
+                                </li>
+                                <li><a href="#">设计与创意</a>
+                                </li>
+                                <li><a href="#">教育</a>
+                                </li>
+                                <li><a href="#">IT与计算机</a>
+                                </li>
+                                <li><a href="#">摄影</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Sidebar (Category) End -->
+
+                    <!-- Sidebar (Archives) Start -->
+                    <div class="sidebar-widget">
+                        <div class="inner">
+                            <h6 class="title">归档</h6>
+                            <ul class="sidebar-list">
+                                <li><a href="#">September 2019</a></li>
+                                <li><a href="#">August 2019</a></li>
+                                <li><a href="#">June 2019</a></li>
+                                <li><a href="#">May 2019</a></li>
+                                <li><a href="#">April 2019</a></li>
+                                <li><a href="#">March 2019</a></li>
+                                <li><a href="#">February 2019</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Sidebar (Archives) End -->
+                </div>
+            </div>
+            <!-- Blog Sidebar Wrap End -->
+
+        </div>
+
+    </div>
+</div>
+<!-- Blog Section End -->
+
+<!-- Footer Top Section Start -->
+<div class="footer-top-section section">
+    <div class="container">
+        <div class="footer-widget-wrap row">
+
+            <!-- Footer Widget Start -->
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="footer-widget">
+                    <div class="footer-widget-about">
+                        <img src="assets/images/logo/logo-light.png" alt=""><!--keller图片-->
+                        <p>介绍介绍介绍Lorem ipsum dolor sit amet consecte tur adipisicing elit. Maiores officiis quod quo id
+                            inventore quis.</p>
+
+                        <ul class="footer-socail">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget End -->
+
+            <!-- Footer Widget Start -->
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="footer-widget">
+                    <h6 class="title">快速链接</h6>
+                    <div class="footer-widget-link">
+                        <ul>
+                            <li><a href="#">发布新职位</a></li>
+                            <li><a href="#">职位清单</a></li>
+                            <li><a href="#">求职者清单</a></li>
+                            <li><a href="#">招聘者清单</a></li>
+                            <li><a href="#">浏览分类</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget End -->
+
+            <!-- Footer Widget Start -->
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="footer-widget">
+                    <h6 class="title">培训工作</h6>
+                    <div class="footer-widget-link">
+                        <ul>
+                            <li><a href="#">设计师</a></li>
+                            <li><a href="#">UI & UX 专家</a></li>
+                            <li><a href="#">开发人员</a></li>
+                            <li><a href="#">iOS 开发人员</a></li>
+                            <li><a href="#">前端开发人员</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget End -->
+
+            <!-- Footer Widget Start -->
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="footer-widget">
+                    <h6 class="title">简讯</h6>
+                    <div class="footer-widget-newsletter">
+                        <p>巴拉巴拉订阅Lawson以获取所有最新的职位，简历，公司列表和博客文章，以保持更新。Subscribe to Lawson to get all latest Job, Resume,
+                            Company Listing & Blog post to stay update.</p>
+                        <form id="mc-form" class="mc-form">
+                            <input id="mc-email" autocomplete="off" type="email" placeholder="输入你的e-mail地址">
+                            <button id="mc-submit" class="btn"><i class="fa fa-envelope-o"></i></button>
+                        </form>
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts text-centre">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success text-success"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error text-danger"></div><!-- mailchimp-error end -->
+                        </div><!-- mailchimp-alerts end -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget End -->
+
+        </div>
+    </div>
+</div>
+<!-- Footer Top Section End -->
+
+<!-- Footer Bottom Section Start -->
+<div class="footer-bottom-section section">
+    <div class="container">
+        <div class="row">
+
+            <!-- Footer Copyright Start -->
+            <div class="col-12">
+                <p class="footer-copyright text-center">Copyright &copy; 2019 <a href="http://www.bootstrapmb.com/">Hasthemes</a>
+                    All Rights Reserved.</p>
+            </div>
+            <!-- Footer Copyright End -->
+
+        </div>
+    </div>
+</div>
+<!-- Footer Bottom Section End -->
+
+<!-- JS
+============================================ -->
+
+<!-- Google Map API JS -->
+<script src='http://www.google.cn/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
+
+<!-- Vendors JS -->
+<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="http://cdn.bootstrapmb.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!-- Plugins JS -->
+<script src="assets/js/plugins/slick.min.js"></script>
+<script src="assets/js/plugins/jquery.waypoints.min.js"></script>
+<script src="assets/js/plugins/jquery.counterup.min.js"></script>
+<script src="assets/js/plugins/jquery.parallax.js"></script>
+<script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
+<script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
+
+<!-- Main Activation JS -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
